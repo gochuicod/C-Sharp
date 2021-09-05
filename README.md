@@ -1,2 +1,3 @@
-# Parallax
-This is a C# programming repository for our APPSDEV class consisting of 5 members
+## This is my development branch
+### Language Used: C#
+- Committed and Pushed Program 1 (Struct)
