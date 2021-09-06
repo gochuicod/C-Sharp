@@ -33,16 +33,16 @@ namespace StructSample
             switch (choice)
             {
                 case 1:
-                    student.remark = "Poor";
+                    student.remark = (Remark.poor).ToString();
                     break;
                 case 2:
-                    student.remark = "Fair";
+                    student.remark = (Remark.fair).ToString();
                     break;
                 case 3:
-                    student.remark = "Good";
+                    student.remark = (Remark.good).ToString();
                     break;
                 case 4:
-                    student.remark = "Excellent";
+                    student.remark = (Remark.excellent).ToString();
                     break;
                 default:
                     student.remark = "INC";
