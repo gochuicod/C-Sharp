@@ -9,7 +9,7 @@ namespace Student
         {
            
             public int id_num, quizscore;
-            public string firstname, lastname,remark;
+            public string firstname, lastname;
 
         }
        
