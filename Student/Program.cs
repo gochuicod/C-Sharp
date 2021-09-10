@@ -5,6 +5,10 @@ namespace Student
     
     class Program 
     {
+       public enum remark : int
+       {
+          Poor = 1, Fair = 2, Good = 3, Excellent = 4
+        }
         public struct Student
         {
            
