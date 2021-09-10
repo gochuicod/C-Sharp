@@ -7,18 +7,9 @@
 
 using System;
 
-namespace StructSample
-{
-    public enum Remark: int
-    {
-        poor = 1, fair = 2, good = 3, excellent = 4
-    }
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            int choice;
-
+namespace StructSample {
+    class Program {
+        static void Main(string[] args) {
             Program1 student = new Program1();
             Console.Write("First Name: ");
             student.firstName = Console.ReadLine();
@@ -27,34 +18,27 @@ namespace StructSample
             Console.Write("ID no: ");
             student.id = int.Parse(Console.ReadLine());
             Console.Write("Score: ");
-            student.quizScore = int.Parse(Console.ReadLine());
-            Console.Write("Remark(1-4): ");
-            choice = int.Parse(Console.ReadLine());
-            switch (choice)
-            {
-                case 1:
-                    student.remark = "Poor";
-                    break;
-                case 2:
-                    student.remark = "Fair";
-                    break;
-                case 3:
-                    student.remark = "Good";
-                    break;
-                case 4:
-                    student.remark = "Excellent";
-                    break;
-                default:
-                    student.remark = "INC";
-                    break;
-            }
-
-            Console.WriteLine("\nName: {0} {1}\nID no: {2}\nScore: {3}\nRemark: {4}",student.firstName, student.lastName, student.id, student.quizScore, student.remark);
+            student.quizScore = float.Parse(Console.ReadLine());
+            Console.WriteLine("\nName: {0} {1}\nID no: {2}\nScore: {3}\nRemark: {4}",student.firstName, student.lastName, student.id, student.quizScore, gradeRemark(student.quizScore));
             Console.ReadKey();
         }
-    }
-    public struct Program1 {
-        public string firstName, lastName, remark;
-        public int id, quizScore;
+
+        public enum Remark: int {
+            poor = 1, fair = 2, good = 3, excellent = 4
+        }
+
+        public struct Program1 {
+            public string firstName, lastName;
+            public float quizScore;
+            public int id;
+        }
+
+        public static string gradeRemark(float grade){
+            if(grade > 69 && grade < 80) return (Remark.poor).ToString();
+            if(grade > 79 && grade < 90) return (Remark.fair).ToString();
+            if(grade > 89 && grade < 100) return (Remark.good).ToString();
+            if(grade == 100) return (Remark.excellent).ToString();
+            return "";
+        }
     }
 }
