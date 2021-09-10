@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Dell Inspiron\\Desktop\\Struct\\Activity1_INOC\\Activity1_INOC\\Activity1_INOC.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Dell Inspiron\\Desktop\\Struct\\Activity1_INOC\\Activity1_INOC\\Activity1_INOC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dell Inspiron\\Desktop\\Struct\\Activity1_INOC\\Activity1_INOC\\Activity1_INOC.csproj",
+        "projectName": "Activity1_INOC",
+        "projectPath": "C:\\Users\\Dell Inspiron\\Desktop\\Struct\\Activity1_INOC\\Activity1_INOC\\Activity1_INOC.csproj",
+        "packagesPath": "C:\\Users\\Dell Inspiron\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell Inspiron\\Desktop\\Struct\\Activity1_INOC\\Activity1_INOC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell Inspiron\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
