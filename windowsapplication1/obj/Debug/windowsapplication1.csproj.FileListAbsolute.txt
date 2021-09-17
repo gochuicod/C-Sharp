@@ -1,0 +1,10 @@
+C:\Users\rochelyn\source\repos\windowsapplication1\bin\Debug\windowsapplication1.exe.config
+C:\Users\rochelyn\source\repos\windowsapplication1\bin\Debug\windowsapplication1.exe
+C:\Users\rochelyn\source\repos\windowsapplication1\bin\Debug\windowsapplication1.pdb
+C:\Users\rochelyn\source\repos\windowsapplication1\obj\Debug\windowsapplication1.csproj.AssemblyReference.cache
+C:\Users\rochelyn\source\repos\windowsapplication1\obj\Debug\windowsapplication1.Form1.resources
+C:\Users\rochelyn\source\repos\windowsapplication1\obj\Debug\windowsapplication1.Properties.Resources.resources
+C:\Users\rochelyn\source\repos\windowsapplication1\obj\Debug\windowsapplication1.csproj.GenerateResource.cache
+C:\Users\rochelyn\source\repos\windowsapplication1\obj\Debug\windowsapplication1.csproj.CoreCompileInputs.cache
+C:\Users\rochelyn\source\repos\windowsapplication1\obj\Debug\windowsapplication1.exe
+C:\Users\rochelyn\source\repos\windowsapplication1\obj\Debug\windowsapplication1.pdb
