@@ -16,7 +16,7 @@ namespace WinFormsApp1
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Form1 f1 = new Form1();
+            MainForm f1 = new MainForm();
             f1.FormBorderStyle = FormBorderStyle.FixedDialog;
             f1.MinimizeBox = false;
             f1.MaximizeBox = false;

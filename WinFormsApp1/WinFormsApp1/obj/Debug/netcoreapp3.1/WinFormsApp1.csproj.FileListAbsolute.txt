@@ -5,7 +5,6 @@ C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\bin\Debug\netcore
 C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.dll
 C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.pdb
 C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csproj.AssemblyReference.cache
-C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Form1.resources
 C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csproj.GenerateResource.cache
 C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.AssemblyInfoInputs.cache
@@ -15,4 +14,14 @@ C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\obj\Debug\netcore
 C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.pdb
 C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.genruntimeconfig.cache
 C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Properties.Resources.resources
-C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Form2.resources
+C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csproj.CopyComplete
+C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.MainForm.resources
+C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.RemoveEntry.resources
+C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.StudentData.resources
+C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.UpdateEntry.resources
