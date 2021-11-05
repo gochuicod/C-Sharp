@@ -32,7 +32,7 @@ namespace WinFormsApp1
             this.btnDelete = new System.Windows.Forms.Button();
             this.removeBox = new System.Windows.Forms.TextBox();
             this.studentDataRemove = new System.Windows.Forms.DataGridView();
-            this.removeDataChoices = new System.Windows.Forms.ComboBox();
+            this.lblID = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.studentDataRemove)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,9 +48,9 @@ namespace WinFormsApp1
             // 
             // removeBox
             // 
-            this.removeBox.Location = new System.Drawing.Point(169, 19);
+            this.removeBox.Location = new System.Drawing.Point(42, 19);
             this.removeBox.Name = "removeBox";
-            this.removeBox.Size = new System.Drawing.Size(291, 27);
+            this.removeBox.Size = new System.Drawing.Size(418, 27);
             this.removeBox.TabIndex = 1;
             // 
             // studentDataRemove
@@ -67,20 +67,21 @@ namespace WinFormsApp1
             this.studentDataRemove.Size = new System.Drawing.Size(546, 434);
             this.studentDataRemove.TabIndex = 2;
             // 
-            // removeDataChoices
+            // lblID
             // 
-            this.removeDataChoices.FormattingEnabled = true;
-            this.removeDataChoices.Location = new System.Drawing.Point(12, 18);
-            this.removeDataChoices.Name = "removeDataChoices";
-            this.removeDataChoices.Size = new System.Drawing.Size(151, 28);
-            this.removeDataChoices.TabIndex = 3;
+            this.lblID.AutoSize = true;
+            this.lblID.Location = new System.Drawing.Point(12, 22);
+            this.lblID.Name = "lblID";
+            this.lblID.Size = new System.Drawing.Size(24, 20);
+            this.lblID.TabIndex = 3;
+            this.lblID.Text = "ID";
             // 
             // RemoveEntry
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(572, 509);
-            this.Controls.Add(this.removeDataChoices);
+            this.Controls.Add(this.lblID);
             this.Controls.Add(this.studentDataRemove);
             this.Controls.Add(this.removeBox);
             this.Controls.Add(this.btnDelete);
@@ -98,6 +99,6 @@ namespace WinFormsApp1
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.TextBox removeBox;
         private System.Windows.Forms.DataGridView studentDataRemove;
-        private System.Windows.Forms.ComboBox removeDataChoices;
+        private System.Windows.Forms.Label lblID;
     }
 }

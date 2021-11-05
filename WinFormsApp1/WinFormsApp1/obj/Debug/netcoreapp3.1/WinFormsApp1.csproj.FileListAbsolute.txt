@@ -25,3 +25,4 @@ C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\obj\Debug\netcore
 C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.RemoveEntry.resources
 C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.StudentData.resources
 C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.UpdateEntry.resources
+C:\Users\gochuicod\Documents\APPSDEV\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.StudentScores.resources
