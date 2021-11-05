@@ -43,13 +43,14 @@ namespace WinFormsApp1
             this.viewMenuStudentData = new System.Windows.Forms.ToolStripMenuItem();
             this.editMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.editMenuRemoveID = new System.Windows.Forms.ToolStripMenuItem();
+            this.editMenuUpdateEntries = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.statusMenu = new System.Windows.Forms.ToolStripStatusLabel();
             this.txtBoxLastName = new System.Windows.Forms.TextBox();
             this.lblScore = new System.Windows.Forms.Label();
             this.lblFirstName = new System.Windows.Forms.Label();
             this.txtBoxFirstName = new System.Windows.Forms.TextBox();
-            this.editMenuUpdateEntries = new System.Windows.Forms.ToolStripMenuItem();
+            this.studentScoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -147,7 +148,8 @@ namespace WinFormsApp1
             // viewMenu
             // 
             this.viewMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.viewMenuStudentData});
+            this.viewMenuStudentData,
+            this.studentScoresToolStripMenuItem});
             this.viewMenu.Name = "viewMenu";
             this.viewMenu.Size = new System.Drawing.Size(55, 24);
             this.viewMenu.Text = "View";
@@ -155,7 +157,7 @@ namespace WinFormsApp1
             // viewMenuStudentData
             // 
             this.viewMenuStudentData.Name = "viewMenuStudentData";
-            this.viewMenuStudentData.Size = new System.Drawing.Size(179, 26);
+            this.viewMenuStudentData.Size = new System.Drawing.Size(224, 26);
             this.viewMenuStudentData.Text = "Student Data";
             this.viewMenuStudentData.Click += new System.EventHandler(this.studentDataToolStripMenuItem_Click);
             // 
@@ -171,9 +173,16 @@ namespace WinFormsApp1
             // editMenuRemoveID
             // 
             this.editMenuRemoveID.Name = "editMenuRemoveID";
-            this.editMenuRemoveID.Size = new System.Drawing.Size(224, 26);
+            this.editMenuRemoveID.Size = new System.Drawing.Size(194, 26);
             this.editMenuRemoveID.Text = "Remove Entries";
             this.editMenuRemoveID.Click += new System.EventHandler(this.undoLastItemToolStripMenuItem_Click);
+            // 
+            // editMenuUpdateEntries
+            // 
+            this.editMenuUpdateEntries.Name = "editMenuUpdateEntries";
+            this.editMenuUpdateEntries.Size = new System.Drawing.Size(194, 26);
+            this.editMenuUpdateEntries.Text = "Update Entries";
+            this.editMenuUpdateEntries.Click += new System.EventHandler(this.editMenuUpdateEntries_Click);
             // 
             // statusStrip1
             // 
@@ -226,12 +235,12 @@ namespace WinFormsApp1
             this.txtBoxFirstName.Size = new System.Drawing.Size(179, 27);
             this.txtBoxFirstName.TabIndex = 18;
             // 
-            // editMenuUpdateEntries
+            // studentScoresToolStripMenuItem
             // 
-            this.editMenuUpdateEntries.Name = "editMenuUpdateEntries";
-            this.editMenuUpdateEntries.Size = new System.Drawing.Size(224, 26);
-            this.editMenuUpdateEntries.Text = "Update Entries";
-            this.editMenuUpdateEntries.Click += new System.EventHandler(this.editMenuUpdateEntries_Click);
+            this.studentScoresToolStripMenuItem.Name = "studentScoresToolStripMenuItem";
+            this.studentScoresToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.studentScoresToolStripMenuItem.Text = "Student Scores";
+            this.studentScoresToolStripMenuItem.Click += new System.EventHandler(this.studentScoresToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -285,6 +294,7 @@ namespace WinFormsApp1
         private System.Windows.Forms.Label lblFirstName;
         private System.Windows.Forms.TextBox txtBoxFirstName;
         private System.Windows.Forms.ToolStripMenuItem editMenuUpdateEntries;
+        private System.Windows.Forms.ToolStripMenuItem studentScoresToolStripMenuItem;
     }
 }
 

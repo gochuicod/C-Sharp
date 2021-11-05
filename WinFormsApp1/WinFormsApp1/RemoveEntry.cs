@@ -14,10 +14,7 @@ namespace WinFormsApp1
         public RemoveEntry()
         {
             InitializeComponent();
-            removeDataChoices.Items.Add("ID");
-            removeDataChoices.Items.Add("Firstname");
-            removeDataChoices.Items.Add("Lastname");
-            removeBox.MaxLength = 30;
+            removeBox.MaxLength = 8;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -29,8 +26,10 @@ namespace WinFormsApp1
         {
             SqlConnection con = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog='Parallax Database';Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
             con.Open();
-            SqlCommand cmd = new SqlCommand($"Delete from StudentsTable where {removeDataChoices.Text} = '" + removeBox.Text + "'", con);
-            cmd.ExecuteNonQuery();
+            SqlCommand cmd, cmd1;
+            cmd = new SqlCommand($"Delete from StudentsTable where ID = '{removeBox.Text}'", con);
+            cmd1 = new SqlCommand($"Delete from StudentScores where ID = '{removeBox.Text}'",con);
+            cmd.ExecuteNonQuery(); cmd1.ExecuteNonQuery();
             con.Close();
 
             SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM StudentsTable", "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog='Parallax Database';Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");

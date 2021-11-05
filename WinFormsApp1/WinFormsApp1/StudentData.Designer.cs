@@ -47,21 +47,21 @@ namespace WinFormsApp1
             this.studentDataSearch.Name = "studentDataSearch";
             this.studentDataSearch.RowHeadersWidth = 51;
             this.studentDataSearch.RowTemplate.Height = 29;
-            this.studentDataSearch.Size = new System.Drawing.Size(546, 434);
+            this.studentDataSearch.Size = new System.Drawing.Size(428, 434);
             this.studentDataSearch.TabIndex = 1;
             // 
             // searchBox
             // 
             this.searchBox.Location = new System.Drawing.Point(169, 12);
             this.searchBox.Name = "searchBox";
-            this.searchBox.Size = new System.Drawing.Size(330, 27);
+            this.searchBox.Size = new System.Drawing.Size(212, 27);
             this.searchBox.TabIndex = 2;
             this.searchBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // searchBoxLabel
             // 
             this.searchBoxLabel.AutoSize = true;
-            this.searchBoxLabel.Location = new System.Drawing.Point(505, 15);
+            this.searchBoxLabel.Location = new System.Drawing.Point(387, 15);
             this.searchBoxLabel.Name = "searchBoxLabel";
             this.searchBoxLabel.Size = new System.Drawing.Size(53, 20);
             this.searchBoxLabel.TabIndex = 3;
@@ -79,7 +79,7 @@ namespace WinFormsApp1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(571, 489);
+            this.ClientSize = new System.Drawing.Size(452, 489);
             this.Controls.Add(this.studentDataChoices);
             this.Controls.Add(this.searchBoxLabel);
             this.Controls.Add(this.searchBox);

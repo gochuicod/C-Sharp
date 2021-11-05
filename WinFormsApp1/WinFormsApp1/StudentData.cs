@@ -19,13 +19,12 @@ namespace WinFormsApp1
             studentDataChoices.Items.Add("ID");
             studentDataChoices.Items.Add("Firstname");
             studentDataChoices.Items.Add("Lastname");
-            studentDataChoices.Items.Add("Score");
             searchBox.MaxLength = 30;
         }
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM StudentsTable", "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog='Parallax Database';Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            SqlDataAdapter da = new SqlDataAdapter("SELECT ID, Firstname, Lastname FROM StudentsTable", "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog='Parallax Database';Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
             DataSet ds = new DataSet();
             da.Fill(ds, "StudentsTable");
             studentDataSearch.DataSource = ds.Tables["StudentsTable"].DefaultView;
@@ -35,7 +34,16 @@ namespace WinFormsApp1
         {
             SqlConnection con = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog='Parallax Database';Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
             con.Open();
-            SqlCommand cmd = new SqlCommand("Insert into StudentsTable values('" + idno + "', '" + firstName + "', '" + lastName + "', '" + Score + "')", con);
+            SqlCommand cmd = new SqlCommand($"Insert into StudentsTable values('{idno}','{firstName}','{lastName}','{Score}')",con);
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+
+        public void insertEntry(string idno)
+        {
+            SqlConnection con = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog='Parallax Database';Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            con.Open();
+            SqlCommand cmd = new SqlCommand($"Insert into StudentScores values({idno})", con);
             cmd.ExecuteNonQuery();
             con.Close();
         }
@@ -44,7 +52,7 @@ namespace WinFormsApp1
         {
             SqlConnection con = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog='Parallax Database';Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
             con.Open();
-            SqlCommand cmd = new SqlCommand($"Select * from StudentsTable where {studentDataChoices.Text} like '%' + '" + searchBox.Text + "' +'%'", con);
+            SqlCommand cmd = new SqlCommand($"Select ID, Firstname, Lastname from StudentsTable where {studentDataChoices.Text} like '%{searchBox.Text}%'", con);
             cmd.Connection = con;
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataSet ds = new DataSet();

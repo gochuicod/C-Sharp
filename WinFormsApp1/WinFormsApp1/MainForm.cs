@@ -46,6 +46,7 @@ namespace WinFormsApp1
 
             StudentData f2 = new StudentData();
             f2.insertEntry(idno,firstName,lastName,Score);
+            f2.insertEntry(idno);
         }
 
         public enum Remark : int
@@ -79,6 +80,15 @@ namespace WinFormsApp1
             f2.StartPosition = FormStartPosition.CenterScreen;
             f2.FormBorderStyle = FormBorderStyle.FixedDialog;
             f2.ShowDialog();
+        }
+
+        private void studentScoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            StudentScores ss = new StudentScores();
+            ss.MinimizeBox = false; ss.MaximizeBox = false;
+            ss.StartPosition = FormStartPosition.CenterScreen;
+            ss.FormBorderStyle = FormBorderStyle.FixedDialog;
+            ss.ShowDialog();
         }
 
         private void undoLastItemToolStripMenuItem_Click(object sender, EventArgs e)

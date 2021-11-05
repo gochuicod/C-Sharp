@@ -1,6 +1,11 @@
 ## This is my development branch
 ### Language Used: C#
 
+#### November 05, 2021 ( Student Data Windows Forms Version 4.0)
+- Created a new table to initiate sql inner join functionality on a form
+- CRUD functionality updated
+- Minimal code optimizations
+
 #### October 22, 2021 ( Student Data Windows Forms Version 3.0 )
 - Created a database for students that is linked to the student data form
 - Added CRUD functionality to database correspondingly:
