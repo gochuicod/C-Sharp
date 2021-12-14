@@ -1,0 +1,10 @@
+C:\Users\gochuicod\Documents\APPSDEV\FinalProject\FinalProject\bin\Debug\FinalProject.exe.config
+C:\Users\gochuicod\Documents\APPSDEV\FinalProject\FinalProject\bin\Debug\FinalProject.exe
+C:\Users\gochuicod\Documents\APPSDEV\FinalProject\FinalProject\bin\Debug\FinalProject.pdb
+C:\Users\gochuicod\Documents\APPSDEV\FinalProject\FinalProject\obj\Debug\FinalProject.csproj.AssemblyReference.cache
+C:\Users\gochuicod\Documents\APPSDEV\FinalProject\FinalProject\obj\Debug\FinalProject.FormMain.resources
+C:\Users\gochuicod\Documents\APPSDEV\FinalProject\FinalProject\obj\Debug\FinalProject.Properties.Resources.resources
+C:\Users\gochuicod\Documents\APPSDEV\FinalProject\FinalProject\obj\Debug\FinalProject.csproj.GenerateResource.cache
+C:\Users\gochuicod\Documents\APPSDEV\FinalProject\FinalProject\obj\Debug\FinalProject.csproj.CoreCompileInputs.cache
+C:\Users\gochuicod\Documents\APPSDEV\FinalProject\FinalProject\obj\Debug\FinalProject.exe
+C:\Users\gochuicod\Documents\APPSDEV\FinalProject\FinalProject\obj\Debug\FinalProject.pdb
